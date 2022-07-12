@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Brice's Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <h5>
+                Brice Tran
+            </h5>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a class="navbar-brand" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="navbar-brand" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="navbar-brand" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="navbar-brand" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <button onclick="topFunction()" id="home" class="home">^</button>
+    <div id="about">
+        <img class="selfie" src="images/selfie1.jpg">
+        <div class="about">
+            <p>
+                Hi, I'm Brice.
+            </p>
+            <p>
+                I'm a full-stack developer trying to be a better me than yesterday.
+            </p>
+        </div>
+    </div>
+    <div id="skills">
+        <h1>
+            Skills
+        </h1>
+        <div class="skills">
+            <div class="frontend">
+                <h2>
+                    Front End Development
+                </h2>
+                    <ul>
+                        <li>
+                            <img src="https://img.icons8.com/color/96/html.png">
+                            <p>
+                                HTML
+                            </p>
+                        </li>
+                        <li>
+                            <img src="https://img.icons8.com/color/96/css.png">
+                            <p>
+                            CSS
+                        </p>
+                        </li>
+                        <li>
+                            <img src="https://img.icons8.com/color/96/javascript--v1.png">
+                            <p>
+                                Javascript
+                            </p>
+                        </li>
+                        <li>
+                            <img src="https://img.icons8.com/ultraviolet/80/react--v1.png">
+                            <p>
+                                React
+                            </p>
+                        </li>
+                    </ul>
+            </div>
+            <div class="backend">
+                <h2>
+                    Back End Development
+                </h2>
+                <ul>
+                    <li>
+                        <img src="https://img.icons8.com/color/96/nodejs.png">
+                        <p>
+                            Node
+                        </p>
+                    </li>
+                    <li>   
+                        <img src="images/icon-express.png" style="width:auto;height:85px;">
+                        <p>
+                            Express
+                        </p>
+                    </li>
+                    <li>
+                        <img src="https://sequelize.org/img/logo.svg" style="width:85px;height:85px;">
+                        <p>
+                            Sequelize
+                        </p>
+                    </li>
+                    <li>
+                        <img src="https://img.icons8.com/color/96/postgreesql.png">
+                        <p>
+                            PostgreSQL
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="projects">
+        <h1>
+            Projects
+        </h1>
+        <div class="Pokemon-TCG-Collector">
+            <div class="content">
+                <h2>
+                    Pokemon TCG Collector
+                </h2>
+                <p>
+                    Take a trip down memory lane!
+                    This is a website built based on my love for Pokemon.
+                    Here, you can browse through the vast database of Pokemon trading cards.
+                    Cards can be looked up by sets or through the search bar. 
+                    Listed on the card details page you can find the current market price and where to buy it.
+                </p>
+                <div class="buttons">
+                    <a href="https://github.com/Ascix/pokemon-tcg-collector"><button>Source Code</button></a>
+                    <a href="https://pokemontcgcollector.netlify.app"><button>Visit Site</button></a>
+                </div>
+            </div>
+            <div class="demo">
+                <img src="./images/demo-pokemon-tcg-collector.gif">
+            </div>
+        </div>
+        <div class="Beefy-Bois-Diner">
+            <div class="demo">
+                <img src="./images/demo-beefy-bois-diner.gif">
+            </div>
+            <div class="content">
+                <h2>
+                    Beefy Boi's Diner
+                </h2>
+                <p>
+                    Welcome to our humble diner! 
+                    Here on our website, you create an account or checkout as a guest.
+                    Feel free to browse through our expansive menu built through PostgreSQL.
+                    Got a special event going on and wanna come in? Make a reservation!
+                    Or just plain hungry? Get your food delivered!
+                </p>
+                <div class="buttons">
+                    <a href="https://github.com/dan4422/restaurant-site"><button>Source Code</button></a>
+                    <a href="https://beefyboisdiner.herokuapp.com/"><button>Visit Site</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="Planner-Getaway">
+            <div class="content">
+                <h2>
+                    Planner Getaway
+                </h2>
+                <p>
+                    With Planner Getaway, you can plan-er getaway! 
+                    This website allows users to organize a list to help plan their next trip. 
+                    You can search for a location you would like to visit and the area will render using Google Maps' API.
+                    Afterwards, you can search for any activity or point of interests and they will populate in a list and on the map. 
+                    From the results list, you can finalize your decision and add it into your personal list.
+                </p>
+                <div class="buttons">
+                    <a href="https://github.com/gedelao/Planner-Getaway"><button>Source Code</button></a>
+                    <a href="https://planner-getaway.netlify.app"><button>Visit Site</button></a>
+                </div>
+            </div>
+            <div class="demo">
+                <img src="./images/demo-planner-getaway.gif">
+            </div>
+        </div>
+    </div>    
+    <div id="contact" class="contact">
+        <div class="icons">
+        <a href="https://www.linkedin.com/in/brice-tran23"><img src="images/icon-linkedin.png"></a>
+        <a href="https://www.github.com/Ascix"><img src="images/icon-github.png"></a>
+        <a href="mailto:brice1992@msn.com"><img src="images/icon-email.png"></a>
+        </div>
+    </div>
+</body>
+</html>
