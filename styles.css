@@ -122,7 +122,7 @@ button:focus {
     justify-items: center;
     text-align: center;
     border-radius: 10px;
-    background: linear-gradient(#fafce2, #fdffb6);
+    background: linear-gradient(#ffdee1, #e18d96);
     margin: 0 4% 4% 4%
 }
 
@@ -162,6 +162,16 @@ button:focus {
     width: 400px
 }
 
+.Collect-em-All, .Beefy-Bois-Diner  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(#fafce2, #fdffb6);
+    color: rgb(148, 148, 148);
+    margin: 0 4% 4% 4%
+}
+
 .Pokemon-TCG-Collector, .Planner-Getaway {
     display: flex;
     flex-direction: row;
@@ -188,23 +198,17 @@ button:focus {
 }
 
 .Beefy-Bois-Diner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-radius: 10px;
     background: linear-gradient(#ddf9fc, #9bf6ff );
-    color: rgb(148, 148, 148);
-    margin: 0 4% 4% 4%
 }
 
-.Beefy-Bois-Diner .demo {
+.Collect-em-All .demo, .Beefy-Bois-Diner .demo {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5% 0 5% 5%;
 }
 
-.Beefy-Bois-Diner .content {
+.Collect-em-All .content, .Beefy-Bois-Diner .content {
     padding: 5%;
     display: flex;
     flex-direction: column;
@@ -244,18 +248,18 @@ button:focus {
         width: 320px;
         padding: 0
     }
-    .Pokemon-TCG-Collector, .Planner-Getaway, .Beefy-Bois-Diner {
+    .Collect-em-All, .Pokemon-TCG-Collector, .Planner-Getaway, .Beefy-Bois-Diner {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .Planner-Getaway .demo, .Pokemon-TCG-Collector .demo, .Beefy-Bois-Diner .demo {
+    .Collect-em-All .demo, .Planner-Getaway .demo, .Pokemon-TCG-Collector .demo, .Beefy-Bois-Diner .demo {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 0 0 5% 0;
     }
-    .Beefy-Bois-Diner .demo {
+    .Collect-em-All .demo, .Beefy-Bois-Diner .demo {
         display: flex;
         align-items: center;
         justify-content: center;
