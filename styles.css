@@ -233,6 +233,9 @@ button:focus {
 }
 
 @media only screen and (max-width: 878px) {
+    .navbar a{
+        font-size: smaller;
+    }
     .frontend ul, .backend ul {
         display: flex;
         flex-direction: row;
